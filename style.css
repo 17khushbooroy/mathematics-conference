@@ -82,6 +82,10 @@ nav a {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #0b5ecf;
 }
 
 .btn.secondary {
@@ -116,4 +120,5 @@ footer {
   color: var(--muted);
   margin-top: 30px;
 }
+
 
