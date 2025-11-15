@@ -1,7 +1,7 @@
 :root {
   --accent: #f16c06;
   --muted: #f4ebeb;
-  --bg: #f7f9fc;
+  --bg: #c9ecd5;
   --card: #cddbe4;
 }
 body {
@@ -129,6 +129,7 @@ footer {
   color: var(--muted);
   margin-top: 30px;
 }
+
 
 
 
