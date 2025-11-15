@@ -98,7 +98,7 @@ nav a {
 }
 
 .btn.secondary {
-  background: transparent;
+  background: #0b5ecf;
   border: 1px solid var(--accent);
   color: var(--accent);
 }
@@ -129,6 +129,7 @@ footer {
   color: var(--muted);
   margin-top: 30px;
 }
+
 
 
 
