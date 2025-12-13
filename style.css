@@ -20,6 +20,17 @@ p{
   margin: 0 auto;
   padding: 20px;
 }
+marquee {
+    position: absolute;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    50%  {left: 100%;}
+    100% {left: 0%;}
+}
 
 header {
   background: #1aa33f;
@@ -129,6 +140,7 @@ footer {
   color: var(--muted);
   margin-top: 30px;
 }
+
 
 
 
